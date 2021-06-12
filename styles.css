@@ -1,0 +1,130 @@
+<style>
+            button {
+                font-size: 22px;
+                font-family: arial, sans-serif;   
+            }
+            body {
+                margin: 0;
+            }
+            
+            #right {
+                display: flex;
+                justify-content: flex-end;
+                text-decoration: none;
+                color: black;
+            }
+
+            #right a.left {
+                position: relative;
+                right: 955px;
+                margin-left: 30x;
+                margin-top: 15px;
+            }
+
+            #right a {
+                margin-right: 20px;
+                margin-top: 15px;
+                color: black;
+                
+            }
+            #right a.topimage {
+                width: 20px;
+                height: 20px;
+                background: red;
+                border-radius: 50%;
+            }
+            #advheading {
+                color: rgb(238, 52, 52);
+                margin-left: 50px;
+
+            }
+
+            #middle {
+                margin-top: 300px;
+            }
+            
+            #gmaillogo {
+                text-align: center;
+            }
+
+            .images {
+                color: #4285f4;
+                font: 16px/16px roboto-regular, arial, sans-serif;
+                position: relative;
+                left: 110px;
+                top: -20px;
+                white-space: nowrap;
+            }
+
+            #searchbarcontainer {
+                margin-top: 20px;
+                text-align: center;
+            }
+            #searchbar {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                outline: 0;
+                width: 500px;
+                border-radius: 15px;
+                border: 1px solid #eeeeee
+            }
+
+            #searchbar:hover {
+                box-shadow: 0 0 10px 2px rgb(233, 227, 227);
+            }
+
+            #buttons {
+                margin-top: 20px;
+                display: flex;
+                justify-content: center;
+            }
+            .button {
+                margin-left: 10px;
+                margin-right: 10px;
+                padding: 10px 5px;
+                cursor: pointer;
+                background: rgb(241, 241, 241);
+                border-radius: 3px;
+            }
+            form {
+                text-align: center;
+            }
+            .round {
+                border: 2px, solid black;
+                border-radius: 10px;
+            }
+            .under {
+                position: relative;
+                left: 100px;
+            }
+            #advsearch {
+                margin-left: 50px;
+                margin-top: 80px;
+            }
+           
+            #advsearch2 {
+                margin-left: 50px;
+            }
+
+            #advsearch2 .text {
+                float: left;
+                display: block;
+                padding-top: 10px;  
+            }
+
+            #advsearch2 .search {
+                
+                left: 100px;
+            }
+
+            #advsubmit {
+               position: relative;
+               left: 500px; 
+               padding: 15px;
+               background-color: rgb(45, 45, 247);
+               color: white;
+               font-size: 14px;
+
+            }
+
+</style>
